@@ -1,12 +1,3 @@
-
-import React from 'react';
-import { View, Text } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Welcome to Gayaza Market Online!</Text>
-    </View>
 // App.js (Main Entry) import React from 'react'; import { NavigationContainer } from '@react-navigation/native'; import TabNavigator from './src/navigation/TabNavigator';
 
 export default function App() { return ( <NavigationContainer> <TabNavigator /> </NavigationContainer> ); }
@@ -30,5 +21,4 @@ export default function FoodScreen() { return ( <View> <Text>Food Listings Here<
 // ProfileScreen.js import React from 'react'; import { View, Text } from 'react-native';
 
 export default function ProfileScreen() { return ( <View> <Text>User Profile</Text> </View> ); }
-
 
